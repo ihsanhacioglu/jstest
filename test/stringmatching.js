@@ -1,3 +1,6 @@
+
+// canan altun tar. fork yapıldı..
+
 var stringA = "tacoloco"
   , stringB = "co"
   , q1, q2, q2multi, m
