@@ -16,7 +16,7 @@ while(m = q2multi.exec(stringA)){
 	q2matches.push(m.index)
 }
  
-// stringA ends with stringB
+// stringA,  stringB ile bitiyor
 q3 = stringA.substr(-stringB.length) == stringB
  
 console.log("1: Does '"+stringA+"' start with '"+stringB+"'? " + ( q1 ? "Yes." : "No."))
@@ -24,4 +24,5 @@ console.log("2: Is '"+stringB+"' contained in '"+stringA+"'? " + (~q2 ? "Yes, at
 if (~q2 && q2matches.length > 1){
 	console.log("   In fact, it happens "+q2matches.length+" times within '"+stringA+"', at index"+(q2matches.length > 1 ? "es" : "")+" "+q2matches.join(', ')+".")
 }
+
 console.log("3: Does '"+stringA+"' end with '"+stringB+"'? "   + ( q3 ? "Yes." : "No."))
