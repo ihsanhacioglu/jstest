@@ -4,12 +4,14 @@ var stringA = "tacoloco"
   , q2matches = []
  
 // stringA starts with stringB
+// stringA, stringB ile başlıyor
 q1 = stringA.substring(0, stringB.length) == stringB
  
-// stringA contains stringB
+// stringA, stringB i içeriyor
 q2  = stringA.indexOf(stringB)
  
 // multiple matches
+// çoklu karşlaştırma
 q2multi = new RegExp(stringB,'g')
  
 while(m = q2multi.exec(stringA)){
