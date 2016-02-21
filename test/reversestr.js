@@ -5,6 +5,7 @@ function reverseStr(s) {
  
 //fast method using for loop
 // dene 1.0 da değişklik
+// dene 1.0 da 2. değişklik
 function reverseStr(s) {
   for (var i = s.length - 1, o = ''; i >= 0; o += s[i--]) { }
   return o;
