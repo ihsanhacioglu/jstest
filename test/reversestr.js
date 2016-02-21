@@ -1,4 +1,5 @@
 //using chained methods
+//zincirleme metod kullanımı
 function reverseStr(s) {
   return s.split('').reverse().join('');
 }
