@@ -1,4 +1,5 @@
-//using chained methods
+// test 23.02.2016
+//using chainedmethods
 //zincirleme metod kullanımı
 function reverseStr(s) {
   return s.split('').reverse().join('');
