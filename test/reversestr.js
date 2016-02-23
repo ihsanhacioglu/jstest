@@ -1,9 +1,11 @@
+// test base degisiklik
 // test 23.02.2016
 //using chainedmethods
 //zincirleme metod kullanımı
 function reverseStr(s) {
   return s.split('').reverse().join('');
 }
+// test base degisiklik 2
  
 //fast method using for loop
 // dene 1.0 da değişklik
