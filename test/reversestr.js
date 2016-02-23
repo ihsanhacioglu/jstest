@@ -1,3 +1,4 @@
+// coomit dene test
 //using chained methods
 //zincirleme metod kullanımı
 function reverseStr(s) {
