@@ -1,6 +1,8 @@
-// test base degisiklik
+﻿// test base degisiklik
 // test 23.02.2016
-//using chainedmethods
+// using chainedmethods
+// test ev
+
 //zincirleme metod kullanımı
 function reverseStr(s) {
   return s.split('').reverse().join('');
