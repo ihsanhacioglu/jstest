@@ -1,7 +1,7 @@
 ﻿// test base degisiklik
 // test 23.02.2016
 // using chainedmethods
-// test ev
+// test ev 2
 
 //zincirleme metod kullanımı
 function reverseStr(s) {
